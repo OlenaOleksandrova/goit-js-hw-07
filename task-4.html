@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form class="login-form">
+        <label>
+            Email
+            <input type="email" name="email" />
+        </label>
+        <label>
+            Password
+            <input type="password" name="password" />
+        </label>
+        <button type="submit">Log in</button>
+    </form>
+
+
+
+    <style>
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 408px;
+            margin: 0 auto;
+            gap: 8px;
+        }
+
+        label {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #2e2f42;
+        }
+
+        input {
+            width: 360px;
+            height: 40px;
+        }
+
+        button {
+            /* padding: 10px;
+    font-size: 16px; */
+            border-radius: 8px;
+            padding: 8px 16px;
+            width: 86px;
+            height: 40px;
+            background: #4e75ff;
+            cursor: pointer;
+            color: #fff;
+            border: none;
+        }
+
+        button:hover {
+            background: #6c8cff;
+        }
+    </style>
+
+    <script src="./js/task-4.js" type="module">
+    </script>
+
+</body>
+
+</html>

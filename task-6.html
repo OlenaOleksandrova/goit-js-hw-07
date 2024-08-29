@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="controls">
+        <input type="number" min="1" max="100" step="1" />
+        <button  type="button" data-create>Create</button>
+        <button type="button" data-destroy>Destroy</button>
+    </div>
+
+    <div id="boxes"></div>
+
+    <style>
+        input {
+            border: 1px solid #808080;
+            border-radius: 8px;
+            width: 150px;
+            height: 40px;
+        }
+
+        .class-create{
+            border-radius: 8px;
+            padding: 8px 16px;
+            width: 120px;
+            height: 40px;
+            background: #4e75ff;
+            border: none;
+            color: #fff;
+        
+        }
+
+        .class-destroy{
+            border-radius: 8px;
+            padding: 8px 16px;
+            width: 120px;
+            height: 40px;
+            background: #ff4e4e;
+            border: none;
+            color: #fff;
+        }
+
+        #controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+
+        }
+    </style>
+    <script src="./js/task-6.js" type="module">
+    </script>
+</body>
+
+</html>
