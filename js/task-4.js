@@ -15,5 +15,9 @@ const formData = {
     password: passwordEl,
 };
 console.log(formData);
-// loginNew.reset();
+    // loginNew.reset();
+    
+    event.target.reset();
 });
+
+
